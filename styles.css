@@ -11,6 +11,18 @@ html {
   font-size: 10px;
 }
 
+@media only screen and (min-width: 560px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  html {
+    font-size: 20px;
+  }
+}
+
 body {
   color: #414B5F;
   background: #C5C8D0;
