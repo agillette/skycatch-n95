@@ -39,6 +39,10 @@ section {
   padding: 3rem;
 }
 
+section:not(#intro) {
+  background: linear-gradient(180deg, rgba(197,200,208,1) 0%, transparent 10.5rem);
+}
+
 h2 {
   text-transform: uppercase;
   font-size: 2.2rem;
