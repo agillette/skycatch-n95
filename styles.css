@@ -190,6 +190,19 @@ button,
   color: white;
 }
 
+#contact {
+  min-height: calc(100vh - 94px);
+}
+
+.success {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: #D83830;
+  margin: 10rem auto 0 auto;
+  text-align: center;
+}
+
 footer {
   padding: 3rem;
   position: fixed;
