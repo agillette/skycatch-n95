@@ -19,7 +19,7 @@ html {
 
 body {
   color: #414B5F;
-  background: #C5C8D0;
+  background: #c5c8d0;
   font-family: "Blender Pro Medium", sans-serif;
 }
 
@@ -71,7 +71,7 @@ section {
 }
 
 section:not(#intro):not(#contact) {
-  background: linear-gradient(180deg, rgba(197,200,208,1) 0%, transparent 10.5rem);
+  background: linear-gradient(180deg, #c5c8d0 0%, #D9DBDF 10.5rem);
 }
 
 h2 {
@@ -212,5 +212,5 @@ footer {
   text-align: center;
   max-width: calc(560px - 6rem);
   margin: 0 auto;
-  background: linear-gradient(0, rgba(197,200,208,1) 0%, transparent 100%);
+  background: linear-gradient(0, rgba(197,200,208,1) 0%, rgba(197,200,208,0) 100%);
 }
