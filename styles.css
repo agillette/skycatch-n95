@@ -33,6 +33,42 @@ body {
   background: #D9DBDF;
   margin: 0 auto;
   max-width: 750px;
+  position: relative;
+  padding-top: 94px;
+}
+
+header {
+  width: 100%;
+  height: 94px;
+  background: linear-gradient(180deg, rgba(197,200,208,1) 0%, #D9DBDF 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+header span {
+  color: #B3B7BF;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 20px auto;
+  display: block;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: "Blender Pro Heavy", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #C5C8D0;
+}
+
+h1 em {
+  color: #414B5F;
+  font-style: normal;
 }
 
 section {
