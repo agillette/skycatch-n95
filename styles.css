@@ -70,7 +70,7 @@ section {
   padding: 3rem;
 }
 
-section:not(#intro) {
+section:not(#intro):not(#contact) {
   background: linear-gradient(180deg, rgba(197,200,208,1) 0%, transparent 10.5rem);
 }
 
@@ -155,4 +155,25 @@ input {
   padding: 0 1.5rem;
   width: calc(100% - 3rem);
   margin-bottom: 3rem;
+}
+
+.disclosure {
+  font-size: 1.4rem;
+  padding: 1.5rem;
+  border: 1px solid #BEBFC3;
+}
+
+button {
+  border: none;
+  box-shadow: none;
+  border-radius: 0.2rem;
+  background: #D83830;
+  color: white;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  line-height: 5rem;
+  margin: 2rem auto;
+  cursor: pointer;
 }
