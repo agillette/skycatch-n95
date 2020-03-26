@@ -1,0 +1,55 @@
+@font-face {font-family: "Blender Pro Medium"; src: url("//db.onlinewebfonts.com/t/685030e1abf58bd087a4ee725d9dea6a.eot"); src: url("//db.onlinewebfonts.com/t/685030e1abf58bd087a4ee725d9dea6a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/685030e1abf58bd087a4ee725d9dea6a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/685030e1abf58bd087a4ee725d9dea6a.woff") format("woff"), url("//db.onlinewebfonts.com/t/685030e1abf58bd087a4ee725d9dea6a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/685030e1abf58bd087a4ee725d9dea6a.svg#Blender Pro") format("svg"); } 
+@font-face {font-family: "Blender Pro Heavy"; src: url("//db.onlinewebfonts.com/t/571f8bd755d29dc071ead59896f6c4ec.eot"); src: url("//db.onlinewebfonts.com/t/571f8bd755d29dc071ead59896f6c4ec.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/571f8bd755d29dc071ead59896f6c4ec.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/571f8bd755d29dc071ead59896f6c4ec.woff") format("woff"), url("//db.onlinewebfonts.com/t/571f8bd755d29dc071ead59896f6c4ec.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/571f8bd755d29dc071ead59896f6c4ec.svg#Blender Pro") format("svg"); } 
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #414B5F;
+  background: #C5C8D0;
+  font-family: "Blender Pro Medium", sans-serif;
+}
+
+.container {
+  background: #D9DBDF;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+section {
+  padding: 3rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: "Blender Pro Heavy", sans-serif;
+  font-weight: normal;
+}
+
+ul {
+  list-style: square;
+  margin-left: 1rem;
+  text-indent: 2rem;
+}
+
+li {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  margin-bottom: 1.4rem;
+}
