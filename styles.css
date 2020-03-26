@@ -163,12 +163,15 @@ input {
   border: 1px solid #BEBFC3;
 }
 
-button {
+button,
+.button {
   border: none;
   box-shadow: none;
   border-radius: 0.2rem;
   background: #D83830;
   color: white;
+  text-decoration: none;
+  display: block;
   font-family: "Blender Pro Medium", sans-serif;
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -177,4 +180,24 @@ button {
   line-height: 5rem;
   margin: 2rem auto;
   cursor: pointer;
+}
+
+.button {
+  margin: 0;
+}
+
+.button:hover {
+  color: white;
+}
+
+footer {
+  padding: 3rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  max-width: calc(560px - 6rem);
+  margin: 0 auto;
+  background: linear-gradient(0, rgba(197,200,208,1) 0%, transparent 100%);
 }
