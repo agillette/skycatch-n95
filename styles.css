@@ -212,7 +212,7 @@ button,
 }
 
 #contact {
-  min-height: calc(100vh - 94px);
+  min-height: calc(100vh - 94px - 14rem);
 }
 
 .success {
