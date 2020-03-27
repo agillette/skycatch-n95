@@ -9,6 +9,8 @@
 
 html {
   font-size: 10px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media only screen and (min-width: 560px) {
@@ -73,7 +75,7 @@ section {
 }
 
 section:not(#intro):not(#contact) {
-  background: linear-gradient(180deg, #c5c8d0 0%, #D9DBDF 10.5rem);
+  background: linear-gradient(180deg, rgba(197,200,208,0.5) 0%, #D9DBDF 10.5rem);
 }
 
 h2 {
