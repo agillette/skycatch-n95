@@ -29,6 +29,7 @@ body {
   max-width: 560px;
   position: relative;
   padding-top: 94px;
+  padding-bottom: 8rem;
 }
 
 header {
@@ -44,7 +45,8 @@ header {
   margin: 0 auto;
 }
 
-header span {
+header span, 
+.partners span {
   color: #B3B7BF;
   font-size: 12px;
   text-transform: uppercase;
@@ -132,6 +134,25 @@ section>img {
   height: 24.7rem;
   margin-top: -2rem;
   margin-bottom: 0;
+}
+
+.partners {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.partners img {
+  margin-top: 3rem;
+}
+
+.kaiser {
+  width: 18.9rem;
+  height: 6.4rem;
+}
+
+.salesforce {
+  width: 13rem;
+  height: 9.1rem;
 }
 
 label,
