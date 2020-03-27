@@ -224,6 +224,15 @@ button,
   text-align: center;
 }
 
+.info {
+  text-transform: uppercase;
+  color: #D83830;
+  margin: 1rem auto 5rem auto;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
 footer {
   padding: 3rem;
   position: fixed;
